@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->   
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Ran</span></h1>
+      <p class="typing"></p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="image1..jpeg" alt="Profile">
+      <p>
+        I'm a passionate <span class="highlight">Web Developer</span> skilled in building
+        modern, responsive, and user-friendly websites.
+        I love blending creativity with logic to deliver impactful digital experiences.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <h3>HTML</h3>
+        <div class="bar"><div class="progress html"></div></div>
+      </div>
+      <div class="skill">
+        <h3>CSS</h3>
+        <div class="bar"><div class="progress css"></div></div>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="bar"><div class="progress js"></div></div>
+      </div>
+      <div class="skill">
+        <h3>React</h3>
+        <div class="bar"><div class="progress react"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="image2..jpeg" alt="Project 1">
+        <h3>Portfolio Website</h3>
+        <p>A modern, responsive portfolio to showcase my work.</p>
+      </div>
+      <div class="project-card">
+        <img src="image3..jpeg" alt="Project 2">
+        <h3>E-Commerce App</h3>
+        <p>Dynamic online shopping platform with cart and payment features.</p>
+      </div>
+      <div class="project-card">
+        <img src="image2..jpeg" alt="Project 3">
+        <h3>Analytics Dashboard</h3>
+        <p>Data visualization dashboard with interactive charts and reports.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ran | All Rights Reserved</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
